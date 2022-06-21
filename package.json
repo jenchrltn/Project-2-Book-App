@@ -1,0 +1,26 @@
+{
+  "name": "project-2-book-app",
+  "version": "1.0.0",
+  "description": "Creating an app for reading challenges and book recommendations that will allow the user to explore new books and foster a love for reading. The user should be able to search for books by title, genre, year and author.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenchrltn/Project-2-Book-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jenchrltn/Project-2-Book-App/issues"
+  },
+  "homepage": "https://github.com/jenchrltn/Project-2-Book-App#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.6"
+  }
+}

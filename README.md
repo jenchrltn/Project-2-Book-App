@@ -6,6 +6,8 @@ Login and New User
 Being able to review and rate the books
 Displaying a photo of the book and a brief description
 Shows reviews and ratings from other readers
+Adding in a starred rating method. 
+
 Stretch Goals
 Tracking reading progress
 Being able to set a time for when you want to complete the book
@@ -13,7 +15,9 @@ Auto snippet for each book
 The number of books read unlocks a new feature
 Account Displays the users completed reading and books they have reviewed as well as completed reading challenges
 Creating a book club with in the app....
-Front-end
+
+Front-end:
+Using HTML and CSS to give the app something interesting
 Are you planning to use Handlebars, EJS, or DOM-manipulation for your HTML?
 It is OK to change this as you go
 
@@ -31,3 +35,7 @@ The user will be able to have new recommendations each time the login in to app
 The user will be able to invite family or friends to join reading challenges
 Wireframes
 https://www.figma.com/file/fuXXdV6rdLmVGGfUhewza4/Project-2-Wire-Frame?node-id=0%3A1
+
+
+<!-- CODING SOURCES USED:  -->
+

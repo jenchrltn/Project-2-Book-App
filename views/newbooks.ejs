@@ -1,0 +1,23 @@
+<%- include('../partials/header') %>
+
+<form id="new-form" action="/books" method="POST">
+  <label>Title:</label>
+  <input type="text" name="title">
+  <label>Author:</label>
+  <input type="text" name="author">
+  <label>Date:</label>
+  <input type="text" name="Date">
+  <label>Star Rating</label>
+  <select name="StarRating">
+    <option value="1 star">1 star</option>
+    <option value="2 stars">2 stars</option>
+    <option value="3 stars">3 stars</option>
+    <option value="4 stars">4 stars</option>
+    <option value="5 stars">5 stars</option>
+  </select>
+  <label>Currently Reading:</label>
+  <input type="checkbox" name="Currently Reading" checked>
+  <input type="submit" value="Submit">
+</form>
+
+<%- include('../partials/footer') %>

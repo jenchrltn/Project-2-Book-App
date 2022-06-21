@@ -1,0 +1,20 @@
+<%- iclude('../partials/header') %>
+<table id="List">
+<thead>
+<tr> 
+<th>Title</th>
+<th>Description<br>Date</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<% books.forEach(function(b)) { %>
+    <tr>
+      <td><%= book.title %></td>
+      <td><%= book.date %></td>
+      <td><a href="books/<%=b._id %>">Review</a></td>
+   </tr>
+  <% }); %> 
+</tbody>
+</table>
+<%- iclude('../partials/footer') %>
